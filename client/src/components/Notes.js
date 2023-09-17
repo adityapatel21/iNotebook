@@ -19,8 +19,7 @@ function Notes() {
 
   useEffect(() => {
     if (localStorage.getItem("token")) {
-      console.log(localStorage.getItem("token"));
-      console.log("kya be lode");
+     
       getAllNotes();
     } else {
       navigate("/login");
