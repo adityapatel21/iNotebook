@@ -85,19 +85,6 @@ const NoteState = (props) => {
     } else {
       console.error("Error updating note");
     }
-    // const json = response.json();
-
-    // let newNotes = JSON.parse(JSON.stringify(json));
-    // console.log(newNotes);
-    // for (let index = 0; index < newNotes.length; index++) {
-    //   if (newNotes[index]._id === id) {
-    //     newNotes[index].title = title;
-    //     newNotes[index].description = description;
-    //     newNotes[index].tag = tag;
-    //     break;
-    //   }
-    // }
-    // setNotes(newNotes);
   };
 
   const [notes, setNotes] = useState([]);
